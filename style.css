@@ -1,22 +1,17 @@
 .page {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border: 2px solid red;
 }
 
 .page {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 
-    minmax(200px, 201px)
-    minmax(100px, 101px)
-    minmax(400px, 400px)
-    minmax(180px, 181px);
-
+    grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(400px, 400px) minmax(180px, 181px);
+    border: 1px solid black;
 }
 
 .page__item {
     margin: 5px;
-    border: 1px solid green;
+    border: 1px solid lightcoral;
 }
 
 .menu {
@@ -61,7 +56,6 @@
 .footer {
     background-color: lightcoral;
     color: white;
-
 }
 
 .footer__info {
@@ -69,30 +63,28 @@
     justify-content: center;
 }
 
-.footer__image{
+.footer__image {
     display: flex;
     justify-content: center;
-    
 }
 
-.footer__item{
+.footer__item {
     margin: 7px;
     font-size: 35px;
 }
 
- .menu a, a:visited {
-color: white;
+.menu a,
+.menu a:visited {
+    color: white;
 }
 
-a:hover{
+a:hover {
     color: gold;
 }
 
-
-
 .header__img-avatar {
     display: block;
-    width: 200px;
+    width: 1500px;
     border-radius: 100px;
 }
 
@@ -104,39 +96,32 @@ a:hover{
 
 /* MAIN CONTENT */
 
-h2{
+h2 {
     font-size: 35px;
     margin: 5px;
     padding: 25px;
-    
-    
 }
 
-h2::before{
+h2::before {
     content: 'xd';
     background: red;
     color: red;
     margin: 20px;
-   
-    
-    
 }
 
-p{
+p {
     font-size: 19px;
     margin: 5px;
     padding: 10px;
 }
 
-.wrapper__home{
-    display: flex;
-}
-.home__avatar{
+.wrapper__home {}
+
+.home__avatar {
     width: 10%;
     border-radius: 100%;
     margin: 5px;
 }
-
 
 
 /* KONTAKT*/
@@ -144,18 +129,17 @@ p{
 .contact a {
     color: black;
     text-decoration-line: none;
-    
 }
-.contact a:hover{
+
+.contact a:hover {
     color: red;
 }
 
 .contact {
     padding: 19px;
-
 }
 
-p.contact__phone::before{
+p.contact__phone::before {
     content: '📞';
     background-color: lightgreen;
     border-radius: 100%;
@@ -163,7 +147,7 @@ p.contact__phone::before{
     margin: 5px;
 }
 
-p.contact__mail::before{
+p.contact__mail::before {
     content: '📧';
     background-color: lightgreen;
     border-radius: 100%;
@@ -171,15 +155,9 @@ p.contact__mail::before{
     margin: 5px;
 }
 
+
 /* PHOTOS*/
 
-.photos__item{
+.photos__item {
     width: 200px;
-   
-   
-
 }
-
-
-
-
