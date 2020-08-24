@@ -4,4 +4,4 @@ function Home() {
 
 }
 
-/* <h2>O mnie</h2> */
+/* <h2>O mnie</h2> xx */
