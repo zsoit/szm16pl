@@ -1,0 +1,185 @@
+.page {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid red;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 
+    minmax(200px, 201px)
+    minmax(100px, 101px)
+    minmax(400px, 400px)
+    minmax(180px, 181px);
+
+}
+
+.page__item {
+    margin: 5px;
+    border: 1px solid green;
+}
+
+.menu {
+    display: flex;
+    padding: 2px;
+    background-color: lightcoral;
+    justify-content: center;
+}
+
+.menu__item {
+    list-style: none;
+    margin: 13px;
+}
+
+.menu__link {
+    text-decoration-line: none;
+    color: white;
+}
+
+.menu__link:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+}
+
+.home {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 20px 30px;
+}
+
+.home__header {
+    display: block;
+}
+
+.home__parapgraph {
+    display: block;
+    font-size: 20px;
+    display: flex;
+}
+
+.footer {
+    background-color: lightcoral;
+    color: white;
+
+}
+
+.footer__info {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer__item{
+    margin: 7px;
+    font-size: 35px;
+}
+
+ .menu a, a:visited {
+color: white;
+}
+
+a:hover{
+    color: gold;
+}
+
+
+
+.header__img-avatar {
+    display: block;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.header__name {
+    font-size: 50px;
+    margin: 40px;
+}
+
+
+/* MAIN CONTENT */
+
+h2{
+    font-size: 35px;
+    margin: 5px;
+    padding: 25px;
+    
+    
+}
+
+h2::before{
+    content: 'xd';
+    background: red;
+    color: red;
+    margin: 20px;
+   
+    
+    
+}
+
+p{
+    font-size: 19px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.wrapper__home{
+    display: flex;
+}
+.home__avatar{
+    width: 10%;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+
+
+/* KONTAKT*/
+
+.contact a {
+    color: black;
+    text-decoration-line: none;
+    
+}
+.contact a:hover{
+    color: red;
+}
+
+.contact {
+    padding: 19px;
+
+}
+
+p.contact__phone::before{
+    content: '📞';
+    background-color: lightgreen;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+p.contact__mail::before{
+    content: '📧';
+    background-color: lightgreen;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* PHOTOS*/
+
+.photos__item{
+    width: 200px;
+   
+   
+
+}
+
+
+
+
