@@ -20,7 +20,7 @@
 
     <header class="header page__item">
 
-        <a href="/"><img src="img/szm16logo-whitepng.png" width="200" class="header__img"></a>
+        <a href=""><img src="img/szm16logo-whitepng.png" width="200" class="header__img"></a>
 
         <h1 class="header__name">
             SzM16 - Pomoc IT
@@ -36,7 +36,7 @@
 
 
         <ul class="menu">
-            <li onclick="Home()" class="menu__item"><a class="menu__link" href="#home"> 🏠O mnie | </a></li>
+            <li class="menu__item"><a class="menu__link" href=""> 🏠O mnie | </a></li>
             <li onclick="Photos()" class="menu__item"><a class="menu__link" href="#galeria">Galeria | </a></li>
             <li onclick="Price()" class="menu__item"><a class="menu__link" href="#oferta">Oferta |</a></li>
             <li onclick="Contact()" class="menu__item"><a class="menu__link" href="#kontakt">Kontakt</a></li>
@@ -54,10 +54,44 @@
         <div class="wrapper__home">
 
 
-            <p> Nazywam się Szymon Monasterski i na codzień zajmuję się usługami informatycznymi. <br> Potrafię naprawić komputer, smartfon skonfigurować sieć, urządzenia elektorniczne. <br> Obecnie uczęszczam do technikum informatycznego, gdzie uczę zawodu.
+            <p> Nazywam się Szymon Monasterski i na codzień zajmuję się usługami informatycznymi. <br> Potrafię naprawić komputer, smartfon skonfigurować sieć, urządzenia elektorniczne. <br> Obecnie uczęszczam do III klasy technikum w ZSOiT Miastku, gdzie
+                uczę się zawodu technik informatyk.
             </p>
+            <div class="img__wrapper">
+                <img class="item__img" src="img/szymon.png">
 
 
+            </div>
+
+            <style>
+                .img__wrapper {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .item__img {
+                    width: 130px;
+                    border-radius: 100%;
+                }
+                
+                . @media (max-width:1000px) {
+                    .page {
+                        grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(100px, 400px) minmax(180px, 181px)
+                    }
+                }
+                
+                @media (max-width:700px) {
+                    .page {
+                        grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(550px, 400px) minmax(180px, 181px)
+                    }
+                }
+                
+                @media (max-width:600px) {
+                    .page {
+                        grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(570px, 400px) minmax(180px, 181px)
+                    }
+                }
+            </style>
 
         </div>
 
@@ -73,6 +107,10 @@
         <div class="footer__image">
             <a href="https://www.facebook.com/SzM16Monster" target="_blank"><i class="fab fa-facebook footer__item"></i></a>
             <a href="https://www.instagram.com/szm_16_monster" target="_blank"><i class="fab fa-instagram footer__item"></i></a>
+
+
+
+
         </div>
 
 
