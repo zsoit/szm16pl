@@ -1,5 +1,7 @@
 .page {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0%;
+    margin: 0;
 }
 
 .page {
@@ -10,20 +12,19 @@
 }
 
 .page__item {
-    margin: 5px;
-    border: 1px solid lightcoral;
+    margin: 0px;
 }
 
 .menu {
     display: flex;
-    padding: 2px;
-    background-color: lightcoral;
+    padding: 15px;
+    background-color: black;
     justify-content: center;
 }
 
 .menu__item {
     list-style: none;
-    margin: 13px;
+    margin: 7px;
 }
 
 .menu__link {
@@ -33,7 +34,11 @@
 
 .menu__link:hover {
     color: gold;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid red;
+    border-radius: 2px;
+    background: rgb(58, 57, 57);
+    padding: 2px;
+    margin: 2px;
 }
 
 .home {
@@ -53,14 +58,26 @@
     display: flex;
 }
 
+.header__name {
+    font-size: 40px;
+    margin: 10px;
+    display: none;
+}
+
+p.header__title {}
+
+
+/*FOOTER */
+
 .footer {
-    background-color: lightcoral;
+    background-color: black;
     color: white;
 }
 
 .footer__info {
     display: flex;
     justify-content: center;
+    font-size: 15px;
 }
 
 .footer__image {
@@ -73,6 +90,18 @@
     font-size: 35px;
 }
 
+.footer a,
+.footer a:visited {
+    color: whitesmoke;
+}
+
+.footer a:hover {
+    color: red;
+}
+
+
+/*HIPERLINK A */
+
 .menu a,
 .menu a:visited {
     color: white;
@@ -80,17 +109,6 @@
 
 a:hover {
     color: gold;
-}
-
-.header__img-avatar {
-    display: block;
-    width: 1500px;
-    border-radius: 100px;
-}
-
-.header__name {
-    font-size: 50px;
-    margin: 40px;
 }
 
 
@@ -160,4 +178,8 @@ p.contact__mail::before {
 
 .photos__item {
     width: 200px;
+}
+
+img {
+    padding: 20px;
 }

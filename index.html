@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
     <script src="https://kit.fontawesome.com/50718158f8.js" crossorigin="anonymous"></script>
-    <title>Szm16</title>
+    <title>SzM16</title>
     <style>
 
     </style>
@@ -17,10 +18,13 @@
 
     <header class="header page__item">
 
+        <img src="img/szm16logo-whitepng.png" width="200" class="header__img">
+
         <h1 class="header__name">
-            SZm16 - Pomoc IT
+            SzM16 - Pomoc IT
 
         </h1>
+        <p class="header__tile">Pomoc w naprawie komputera i nie tylko!</p>
 
 
 
@@ -32,7 +36,7 @@
         <ul class="menu">
             <li onclick="Home()" class="menu__item"><a class="menu__link" href="#home"> 🏠O mnie</a></li>
             <li onclick="Photos()" class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
-            <li onclick="Price()" class="menu__item"><a class="menu__link" href="#cennik">Cennik</a></li>
+            <li onclick="Price()" class="menu__item"><a class="menu__link" href="#oferta">Oferta</a></li>
             <li onclick="Contact()" class="menu__item"><a class="menu__link" href="#kontakt">Kontakt</a></li>
         </ul>
 
@@ -47,8 +51,12 @@
         <h2>O mnie</h2>
         <div class="wrapper__home">
 
+
             <p> Nazywam się Szymon Monasterski i na codzień zajmuję się usługami informatycznymi. <br> Potrafię naprawić komputer, smartfon skonfigurować sieć, urządzenia elektorniczne. <br> Obecnie uczęszczam do technikum informatycznego, gdzie uczę zawodu.
             </p>
+            <!--slider-->
+            <img name="slide" width="400" height="200">
+
 
         </div>
 
@@ -70,11 +78,12 @@
         <p class="footer__info">www.szm16pomocit.pl </p>
 
 
+
     </footer>
 
 
 
-
+    <script src="app/slider.js"></script>
     <script src="app/home.js"></script>
     <script src="app/photos.js"></script>
     <script src="app/price.js"></script>

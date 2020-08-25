@@ -1,5 +1,5 @@
 function Photos() {
-    document.getElementById("main__content").innerHTML = "<h2>Galeria</h2><center><img class=photos__item src=img/foto3.jpg> <img class=photos__item src=img/foto4.jpg></center>";
+    document.getElementById("main__content").innerHTML = "<h2>Galeria</h2><img height=250 name=slide width=400>";
 
     document.title = "Galeria";
 
