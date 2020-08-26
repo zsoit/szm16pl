@@ -7,9 +7,11 @@
     <meta property="og:image" content="https://raw.githubusercontent.com/zsoit/mac-prezetacja/master/fb.jpg" />
     <meta name="description" content="Pomoc w naprawie komputera i nie tylko">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
     <link rel="icon" href="img/favicon.png">
     <script src="https://kit.fontawesome.com/50718158f8.js" crossorigin="anonymous"></script>
     <title>Strona Główna</title>
+
 
 </head>
 
@@ -35,7 +37,7 @@
 
         <ul class="menu">
             <li class="menu__item"><a class="menu__link" href=""> O mnie | </a></li>
-            <li onclick="Photos()" class="menu__item"><a class="menu__link" href="#galeria">Galeria | </a></li>
+            <!---- <li onclick="Photos()" class="menu__item"><a class="menu__link" href="#galeria">Galeria | </a></li> -->
             <li onclick="Price()" class="menu__item"><a class="menu__link" href="#oferta">Oferta |</a></li>
             <li onclick="Contact()" class="menu__item"><a class="menu__link" href="#kontakt">Kontakt</a></li>
         </ul>
@@ -49,11 +51,76 @@
 
 
         <h2>O mnie</h2>
+
+
         <div class="wrapper__home">
 
 
-            <p> Nazywam się Szymon Monasterski i na codzień zajmuję się usługami informatycznymi. <br> Potrafię naprawić komputer, smartfon, skonfigurować sieć i urządzenia elektorniczne. <br> Obecnie uczęszczam do III klasy technikum w ZSOiT Miastku, gdzie
-                uczę się zawodu technik informatyk. <br> W razie jakichkolwiek pytań proszę o kontakt telefoniczny, bądź mailowy. Znajdziesz mnie również na facebooku.</p>
+            <p> Nazywam się Szymon Monasterski i na codzień zajmuję się usługami informatycznymi. <br> Potrafię naprawić komputer, smartfon, skonfigurować sieć i urządzenia elektorniczne. <br> Obecnie uczęszczam do III klasy technikum w Miastku, gdzie uczę
+                się zawodu technik <br> informatyk. <br> W razie jakichkolwiek pytań proszę o kontakt telefoniczny, bądź mailowy. </p>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG1.jpg" style="width:100%">
+                    <div class="text">1/9</div>
+                </div>
+
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG2.jpg" style="width:100%">
+                    <div class="text">2/9</div>
+                </div>
+
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG3.jpg" style="width:100%">
+                    <div class="text">3/9</div>
+                </div>
+
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG4.jpg" style="width:100%">
+                    <div class="text">4/9</div>
+                </div>
+
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG5.jpg" style="width:100%">
+                    <div class="text">5/9</div>
+                </div>
+
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG6.jpg" style="width:100%">
+                    <div class="text">6/9</div>
+                </div>
+
+
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG7.jpg" style="width:100%">
+                    <div class="text">7/9</div>
+                </div>
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG8.jpg" style="width:100%">
+                    <div class="text">8/9</div>
+                </div>
+                <div class="mySlides" class="fade">
+                    <div class="numbertext"></div>
+                    <img src="img/IMG9.jpg" style="width:100%">
+                    <div class="text">9/9</div>
+                </div>
+
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+
 
 
 
@@ -63,6 +130,7 @@
         </div>
 
     </main>
+
 
 
 
