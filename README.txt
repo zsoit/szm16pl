@@ -12,6 +12,6 @@ Adres docelowy:
 Polecenia git :
 
 1) git init
-2) git add . y
+2) git add . 
 3) git commit -m "Komentarz"
 4) git push -u origin master
