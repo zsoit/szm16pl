@@ -107,6 +107,7 @@ p.header__title {}
 
 a:hover {
     color: gold;
+    cursor: pointer;
 }
 
 
@@ -200,4 +201,8 @@ main {
 body {
     padding: 0;
     margin: 0;
+}
+
+.menu__item {
+    cursor: pointer;
 }
