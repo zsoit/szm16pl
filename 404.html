@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="https://raw.githubusercontent.com/zsoit/mac-prezetacja/master/fb.jpg" />
-    <meta name="description" content="Pomoc w naprawie komputera i nie tylko">
+    <meta name="description" content="Pomoc w naprawie komputera i nie tylko!">
+    <meta http-equiv="pragma" content="no-cache">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
     <link rel="icon" href="img/favicon.png">
     <script src="https://kit.fontawesome.com/50718158f8.js" crossorigin="anonymous"></script>
-    <title>Nie znaleziono strony!</title>
-    <style>
+    <title>404</title>
 
-    </style>
+
 </head>
 
 <body class="page">
@@ -36,9 +37,10 @@
 
 
         <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="#home"> Ups...
-                Nie znaleziono strony! </a></li>
-
+            <li class="menu__item"><a class="menu__link" href="/"> O mnie | </a></li>
+            <li onclick="Price()" class="menu__item"><a class="menu__link" />Oferta |</a>
+            </li>
+            <li onclick="Contact()" class="menu__item"><a class="menu__link">Kontakt</a></li>
         </ul>
 
 
@@ -46,14 +48,15 @@
 
 
     </nav>
-    <main id="main__content" class="main page__item">
+
+<main id="main__content" class="main page__item">
 
 
         <h2>404</h2>
         <div class="wrapper__home">
 
 
-            <p>SPRÓBUJ ODŚWIEŻYĆ STRONĘ (ctrl+f5), czasami może to pomóc, jeśli jednak się nie uda, wróć na <a href="/">STRONĘ GŁÓWNĄ</a></p>
+            <p>SPRÓBUJ ODŚWIEŻYĆ STRONĘ (ctrl+f5), czasami może to pomóc, jeśli jednak się nie uda, wróć na <a href="/" >STRONĘ GŁÓWNĄ</a></p>
 
             <center><img src="img/404.jpg" width="200px"></center>
 
@@ -63,8 +66,6 @@
 
     </main>
 
-
-
     <footer class="footer page__item">
         <p class="footer__info">&copy Copyright 2020 Szymon Monasterski </p>
 
@@ -73,10 +74,16 @@
         <div class="footer__image">
             <a href="https://www.facebook.com/SzM16Monster" target="_blank"><i class="fab fa-facebook footer__item"></i></a>
             <a href="https://www.instagram.com/szm_16_monster" target="_blank"><i class="fab fa-instagram footer__item"></i></a>
+
+
+
+
         </div>
 
 
+        <p class="footer__info">All rights reserved</p>
         <p class="footer__info">www.szm16pomocit.pl </p>
+
 
 
 
@@ -85,8 +92,6 @@
 
 
     <script src="app/slider.js"></script>
-    <script src="app/home.js"></script>
-    <script src="app/photos.js"></script>
     <script src="app/price.js"></script>
     <script src="app/contact.js"></script>
 
@@ -97,3 +102,4 @@
 
 
 </html>
+
