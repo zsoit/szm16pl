@@ -9,7 +9,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(400px, auto) minmax(auto, auto);
-        border: 1px solid black;
     }
     
     .page__item {
@@ -18,6 +17,7 @@
     
     .menu {
         display: flex;
+        font-size: 18px;
         padding: 15px;
         background-color: black;
         justify-content: center;
@@ -195,4 +195,9 @@
     
     .menu__item {
         cursor: pointer;
+    }
+    
+    #omnie {
+        color: gold;
+        border-bottom: 2px solid red;
     }
