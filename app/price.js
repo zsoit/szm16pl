@@ -6,8 +6,6 @@ function Price() {
     const kontakt = document.getElementById("contact");
     const omnie = document.getElementById("omnie");
 
-
-
     kontakt.style.color = "white";
     kontakt.style.borderBottom = "2px solid transparent"
 
@@ -17,9 +15,5 @@ function Price() {
     omnie.style.color = "white";
     omnie.style.borderBottom = "2px solid transparent"
 
-
-
-
-    // text-decoration: underline
 
 }
