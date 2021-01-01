@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://raw.githubusercontent.com/zsoit/mac-prezetacja/master/fb.jpg" />
+    <meta property="og:image" content="https://szm16pomocit.pl/img/fb.jpg" />
     <meta name="description" content="Pomoc w naprawie komputera i nie tylko!">
     <meta http-equiv="pragma" content="no-cache">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="slider.css">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="app/css/slider.css">
+    <link rel="stylesheet" href="app/css/style.css">
+    <link rel="icon" href="https://szm16pomocit.pl/img/favicon.png">
     <script src="https://kit.fontawesome.com/50718158f8.js" crossorigin="anonymous"></script>
+    <meta http-equiv="refresh" content="5; /">
     <title>404</title>
 
 
@@ -21,7 +22,7 @@
 
     <header class="header page__item">
 
-        <a href="/"><img src="img/szm16logo-whitepng.png" width="200" class="header__img"></a>
+        <a href="/"><img src="https://szm16pomocit.pl/img/szm16logo-whitepng.png" width="200" class="header__img"></a>
 
         <h1 class="header__name">
             SzM16 - Pomoc IT
@@ -35,12 +36,11 @@
 
     <nav class="nav page__item">
 
-
         <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="/"> O mnie | </a></li>
-            <li onclick="Price()" class="menu__item"><a class="menu__link" />Oferta |</a>
+            <li class="menu__item"><a class="menu__link" href="https://szm16pomocit.pl/" id="omnie"> O mnie  </a></li>
+            <li onclick="Price()" class="menu__item"><a class="menu__link" id="oferta" />Oferta</a>
             </li>
-            <li onclick="Contact()" class="menu__item"><a class="menu__link">Kontakt</a></li>
+            <li onclick="Contact()" class="menu__item"><a class="menu__link" id="contact">Kontakt</a></li>
         </ul>
 
 
@@ -49,16 +49,16 @@
 
     </nav>
 
-<main id="main__content" class="main page__item">
+    <main id="main__content" class="main page__item">
 
 
         <h2>404</h2>
         <div class="wrapper__home">
 
 
-            <p>SPRÓBUJ ODŚWIEŻYĆ STRONĘ (ctrl+f5), czasami może to pomóc, jeśli jednak się nie uda, wróć na <a href="/" >STRONĘ GŁÓWNĄ</a></p>
+            <p>SPRÓBUJ ODŚWIEŻYĆ STRONĘ (ctrl+f5), czasami może to pomóc, jeśli jednak się nie uda, wróć na <a href="/">STRONĘ GŁÓWNĄ</a></p>
 
-            <center><img src="img/404.jpg" width="200px"></center>
+            <center><img src="https://szm16pomocit.pl/img/404.jpg" width="200px"></center>
 
 
 
@@ -89,17 +89,10 @@
 
     </footer>
 
-
-
-    <script src="app/slider.js"></script>
-    <script src="app/price.js"></script>
-    <script src="app/contact.js"></script>
-
-
-
+    <script src="app/js/index.js"></script>
+    <script src="app/js/ie.js"></script>
 
 </body>
 
 
 </html>
-
