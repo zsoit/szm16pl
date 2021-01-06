@@ -11,53 +11,32 @@
     <link rel="stylesheet" href="app/css/slider.css">
     <link rel="icon" href="img/favicon.png">
     <script src="https://kit.fontawesome.com/50718158f8.js" crossorigin="anonymous"></script>
-    <title>Strona Główna</title>
-
+    <title>Strona Główna - SzM16</title>
 </head>
 
 <body class="page">
     <p id="ie"></p>
-
-
     <header class="header page__item">
-
         <a href=""><img src="img/szm16logo-whitepng.png" width="200" class="header__img"></a>
-
-        <h1 class="header__name">
-            SzM16 - Pomoc IT
-
-        </h1>
-        <p class="header__tile">Pomoc w naprawie komputera i nie tylko!</p>
-
-
-
+        <h1 class="header__name">SzM16 - Pomoc IT</h1>
+        <p class="header__tile">Pomoc w naprawie komputera i nie tylko!
+            <p>
     </header>
-
     <nav class="nav page__item">
-
-
         <ul class="menu">
             <li class="menu__item"><a class="menu__link" href="" id="omnie"> O mnie  </a></li>
-            <li onclick="Price()" class="menu__item"><a class="menu__link" id="oferta" />Oferta</a>
+            <li id="price" class="menu__item"><a class="menu__link" id="oferta" />Oferta</a>
             </li>
-            <li onclick="Contact()" class="menu__item"><a class="menu__link" id="contact">Kontakt</a></li>
+            <li id="contact" class="menu__item"><a class="menu__link" id="kontakt">Kontakt</a></li>
         </ul>
 
     </nav>
     <main id="main__content" class="main page__item">
-
-
         <h2>O mnie</h2>
-
-
         <div class="wrapper__home">
-
-
             <p> Nazywam się Szymon Monasterski i na codzień zajmuję się usługami informatycznymi. <br> Potrafię naprawić komputer, smartfon, skonfigurować sieć i urządzenia elektorniczne. <br> Obecnie uczęszczam do III klasy technikum w Miastku, gdzie uczę
                 się zawodu technik <br> informatyk. </p>
-
             <div class="slideshow-container">
-
                 <div class="mySlides" class="fade">
                     <div class="numbertext"></div>
                     <img src="img/IMG1.jpg" style="width:100%">
@@ -102,47 +81,21 @@
                     <img src="img/IMG9.jpg" style="width:100%">
                 </div>
 
-
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-            </div> <br><br>
-
-
-
-
-
-
-
+                <a class="prev" onclick="plusSlides(-1)"></a>
+                <a class="next" onclick="plusSlides(1)"></a>
+            </div>
         </div>
 
     </main>
-
     <footer class="footer page__item">
         <p class="footer__info">&copy Copyright 2021 Szymon Monasterski </p>
-
-
-
         <div class="footer__image">
             <a href="https://www.facebook.com/SzM16Monster" target="_blank"><i class="fab fa-facebook footer__item"></i></a>
             <a href="https://www.instagram.com/szm_16_monster" target="_blank"><i class="fab fa-instagram footer__item"></i></a>
-
-
-
-
         </div>
-
-
         <p class="footer__info">All rights reserved</p>
         <p class="footer__info">www.szm16pomocit.pl </p>
-
-
-
-
     </footer>
-
-
     <script src="app/js/slider.js"></script>
     <script src="app/js/index.js"></script>
     <script src="app/js/ie.js"></script>
